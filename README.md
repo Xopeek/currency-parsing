@@ -3,8 +3,8 @@
 
 ## Установка и использование
 ### Вариант 1: Запуск `.exe` (Рекомендуется)
-1. Скачайте `exchange_rates.exe` из репозитория.
-2. Дважды кликните по `exchange_rates.exe`, программа автоматически создаст/обновит `exchange_rates.xlsx`.
+1. Скачайте репозиторий.
+2. Дважды кликните по `main.exe`, программа автоматически создаст/обновит `exchange_rates.xlsx`.
 
 ### Вариант 2: Запуск из исходного кода
 1. Установите Python (3.10+).
@@ -14,14 +14,14 @@
    ```
 3. Запустите скрипт:
    ```sh
-   python exchange_rates.py
+   python main.py
    ```
 
 ## Автоматическая сборка `.exe`
 Скрипт автоматически собирается в `.exe` с помощью `pyinstaller` через GitHub Actions.
 Для сборки вручную используйте:
 ```sh
-pyinstaller --onefile --noconsole exchange_rates.py
+pyinstaller --onefile --noconsole main.py
 ```
 
 ## Формат Excel-файла
